@@ -1,0 +1,232 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap&subset=chinese-simplified" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(function(){
+  $(".yes a[href^='#']").click(function(e){
+     e.preventDefault();
+     var hash = this.hash;
+     $('html,body').animate({
+        scrollTop: ($(hash).offset().top)
+     }, 1500,);
+  });
+});
+</script>
+<style>
+body{background-color:;}
+.header{
+       height:100%;
+       width:100%;
+       background-color:#ffd480;
+       position:absolute;
+       top:0;left:0;
+}
+#part-2{
+       height:100%;
+       width:100%;
+       position:absolute;
+       top:100%;left:0;
+}
+#part-3{
+       height:100%;
+       width:100%;
+       position:absolute;
+       top:160%;left:0;
+}
+#part-4{
+       height:100%;
+       width:100%;
+       position:absolute;
+       top:210%;left:0;
+}
+#part-5{
+       height:100%;
+       width:100%;
+       position:absolute;
+       top:270%;left:0;
+}
+#part-6{
+       height:500px;
+       width:110%;
+       background-color:#ffd480;
+       position:absolute;
+       top:360%;left:0;
+}
+.back{
+      height:50px;
+      width:50px;
+      position:fixed;
+      top:10%;right:7%;
+}
+.back-1{
+       height:100%;
+       width:1px;
+       background-color:black;
+       position:absolute;
+       top:0;left:0;
+       transform:rotate(45deg);
+}
+.back-2 .back-1{transform:rotate(-45deg);}
+.textOne{
+        width:70%;
+        font-size:70px;
+        text-align:center;
+        font-family: 'ZCOOL XiaoWei', serif;
+        position:absolute;
+        top:30%;left:15%;
+}.textOne-sub{
+        width:40%;
+        font-size:18px;
+        text-align:center;
+        font-weight:600;opacity:0.8;
+        line-height:33px;
+        position:absolute;
+        top:48%;left:30%;
+}
+.scroll{
+       height:300px;
+       width:300px;
+       position:absolute;
+       top:53%;left:38%;
+}
+.love .textOne{top:15%;}
+.textS .textOne{top:40%;color:#ff7733;font-size:45px;line-height:60px;}
+
+.slide-1{
+         height:400px;
+         width:300px;
+         background-image:url(cream.jpg);
+         background-size:100%;
+         position:absolute;
+         top:10%;left:10%;
+         animation:slideA 10s infinite;
+         z-index:2;
+}
+.slide-2{
+         height:400px;
+         width:300px;
+         background-image:url(coke.jpg);
+         background-size:100%;
+         position:absolute;
+         top:10%;left:10%;
+         animation:slideB 10s infinite;z-index:2;
+}
+.slide-3{
+         height:400px;
+         width:300px;
+         background-image:url(window.jpg);
+         background-size:100%;
+         position:absolute;
+         top:10%;left:10%;
+         animation:slideC 10s infinite;z-index:2;
+}
+@keyframes slideA{
+0%{opacity:0;}
+28%{opacity:0;}
+33.3%{opacity:1;}
+61%{opacity:1;}
+66.6%{opacity:0;}
+100%{opacity:0;}
+
+}
+@keyframes slideB{
+0%{opacity:0;}
+33.3%{opacity:0;}
+61%{opacity:0;}
+66.6%{opacity:1;}
+95%{opacity:1;}
+100%{opacity:0;}
+}
+@keyframes slideC{
+0%{opacity:0;}
+5%{opacity:1;}
+28%{opacity:1;}
+33.3%{opacity:0;}
+66.6%{opacity:0;}
+100%{opacity:0;}
+}
+.footer-1{position:absolute;left:35%;top:15%;line-height:80px;}
+.footer-2{position:absolute;left:50%;top:15%;line-height:80px;}
+.footer-3{position:absolute;left:60%;top:40%;font-size:50px;font-family: 'ZCOOL XiaoWei', serif;color:#194d33;text-align:right;}
+.footer-1 a,.footer-2 a{font-size:20px;font-family: 'ZCOOL XiaoWei', serif;color:black;text-decoration:none;}
+.frankLine{
+          background-color:#194d33;
+          height:1px;width:100%;
+          position:absolute;
+          top:85%;left:0;
+}
+.frankLine a{
+             height:40px;width:300px;
+             text-align:center;
+             border-radius:40px;
+             color:#c6ffb3;
+             background-color:#194d33;
+             text-decoration:none;
+             font-size:17px;line-height:40px;
+             position:absolute;
+             top:18px;left:50%;
+}
+</style>
+</head>
+<body>
+ <div class="yes">
+ <div class="header" data-aos="fade-in" data-aos-duration="3000">
+    <a href="Woman's Day.html">
+    <div class="back">
+       <div class="back-1"></div><div class="back-2"><div class="back-1"></div></div>
+    </div>
+    </a>
+    <div class="textOne">我们的世界足迹</div>
+    <div class="textOne-sub">在过去的六年里，我们的足迹遍布了亚洲和欧洲。半年前，我们又游览了自己祖国的大好河山。</div>
+    <a href="#part-2"><div class="scroll"><img src="stamp.png" height="100%" width="100%"></div></a>
+ </div>
+ <div id="part-2" data-aos="fade-in" data-aos-duration="3000">
+      <div class="love"><div class="textOne">欧洲</div></div>
+      <div class="textS">
+          <div class="textOne">英国， 法国， 德国， 芬兰， 瑞典， 瑞士， 列支敦士登， 比利时， 奥地利， 匈牙利.</div>
+      </div>
+ </div>
+ <div id="part-3" data-aos="fade-in" data-aos-duration="3000">
+      <div class="love"><div class="textOne">中东</div></div>
+      <div class="textS">
+          <div class="textOne">多哈.</div>
+      </div>
+ </div>
+ <div id="part-4" data-aos="fade-in" data-aos-duration="3000">
+      <div class="love"><div class="textOne">亚洲</div></div>
+      <div class="textS">
+          <div class="textOne">新加坡， 越南.</div>
+      </div>
+ </div>
+ <div id="part-5" data-aos="fade-in" data-aos-duration="3000">
+      <div class="love"><div class="textOne">中国</div></div>
+      <div class="textS">
+          <div class="textOne">北京， 深圳， 天津， 广州， 香港， 鼓浪屿， 海南， 桂林， 杭州， 上海.</div>
+      </div>
+ </div>
+ <div id="part-6" data-aos="fade-in" data-aos-duration="3000">
+     <div class="slide-1"></div>
+     <div class="slide-2"></div>
+     <div class="slide-3"></div>
+     <div class="footer-1"><span class="love"><a href="Woman's Day.html">我们的家</a></span><br><a href="Woman's Day.html#part-2">幸福相册</a><br>
+                           <a href="Woman's Day.html#part-3">时光宝盒</a><br><a href="Woman's Day.html#part-6">线下礼物</a>
+     </div>
+     <div class="footer-2"><span class="love"><a href="study.html">学习记录</a></span><br><a href="study.html#part-2">数学上</a><br>
+                           <a href="study.html#part-3">化学</a><br><a href="study.html#part-4">物理</a>
+     </div>
+     <a href="Woman's Day.html"><div class="footer-3">球球之家.</div></a>
+     <div class="frankLine"><a href="mailto:wenjie68@163.com">Email: wenjie68@163.com</a></div>
+ </div>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</div>
+</body>
+</html>
