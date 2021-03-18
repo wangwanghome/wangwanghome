@@ -1,0 +1,302 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap&subset=chinese-simplified" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap&subset=chinese-simplified" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(function(){
+  $(".yes a[href^='#']").click(function(e){
+     e.preventDefault();
+     var hash = this.hash;
+     $('html,body').animate({
+        scrollTop: ($(hash).offset().top)
+     }, 2000,);
+  });
+});
+
+</script>
+<style>
+body{background-color:#d6f5d6;}
+.blocker{
+        height:600px;
+        width:100%;
+        background-color:#d6f5d6;
+        position:fixed;
+        top:0;left:0;
+}
+.textOne{
+        width:80%;
+        font-size:100px;
+        text-align:center;
+        color:#194d33;
+        font-family: 'ZCOOL XiaoWei', serif;cursor: url(cursor.cur), auto;
+        line-height:100px;
+        position:absolute;
+        top:15%;left:10%;
+}
+
+
+@media only screen and (min-width: 768px) {
+@keyframes rotate{
+                 0%{transform:rotate(0deg);}
+                100%{transform:rotate(360deg);}
+}
+
+.blocker{display:none;}
+
+.title{
+      height:50px;
+      width:10%;
+      background-image:url(esgreen.png);background-size:100%;background-repeat:no-repeat;
+      opacity:0.7;
+      position:absolute;
+      top:3%;left:45%;
+}
+.title-1 .title a{position:absolute;top:120%;font-weight:600;color:rgba(0,0,0,0.8);display:block;}
+.title-2 .title a{position:absolute;top:120%;font-weight:600;left:38%;color:rgba(0,0,0,0.8);display:block;}
+.title-3 .title a{position:absolute;top:120%;font-weight:600;left:75%;color:rgba(0,0,0,0.8);display:block;}
+
+.info{
+      font-family: 'ZCOOL XiaoWei', serif;cursor: url(cursor.cur), auto;
+      font-size:20px;
+      transform:rotate(90deg);
+      color:#194d33;
+      position:fixed;
+      top:20%;left:-3%;
+      z-index:3;
+}
+.info-1 .info{top:75%;left:-1%;}
+.info-2{
+      font-family: 'ZCOOL XiaoWei', serif;cursor: url(cursor.cur), auto;
+      font-size:20px;
+      transform:rotate(90deg);
+      color:#194d33;
+      position:fixed;
+      top:20%;right:-3%;
+      z-index:3;
+}
+.info-3 .info-2{top:72%;right:-9%;}
+#header{
+        height:200%;
+        width:100%;
+        background-color:#d6f5d6;
+        position:absolute;
+        top:0;left:0;
+}
+#part-2{
+       height:180%;
+       width:100%;
+       position:absolute;
+       top:200%;
+       left:0;
+}
+
+#part-3{
+        height:130%;
+        width:100%;
+        background-color:#d6f5d6;
+        position:absolute;
+        top:380%;left:0;
+}
+#part-4{
+        height:30%;
+        width:100%;
+        background-color:#d6f5d6;
+        position:absolute;
+        top:500%;left:0;
+        z-index:-1;
+}
+#part-5{
+        height:100%;
+        width:100%;
+        background-color:#d6f5d6;
+        border-top:1px solid #94d33;
+        position:absolute;
+        top:530%;left:0;
+        z-index:-1;
+}
+
+#part-3 .textOne{font-size:70px;top:20%;}
+#part-5 .textOne{color:#d6f5d6}
+.textOne{
+        width:80%;
+        font-size:100px;
+        text-align:center;
+        color:#194d33;
+        font-family: 'ZCOOL XiaoWei', serif;cursor: url(cursor.cur), auto;
+        line-height:100px;
+        position:absolute;
+        top:15%;left:10%;
+}.two .textOne{top:59%;}
+.par{
+     width:21%;
+     font-weight:600;
+     color:#194d33;
+     line-height:35px;
+     opacity:0.7;
+     position:absolute;
+     top:75%;left:55%;
+}.two .par{
+           font-size:25px;
+           width:80%;
+           top:10%;
+           left:10%;
+}
+.button{
+       height:50px;
+       width:16%;
+       background-color:#194d33;
+       text-align:center;
+       color:#d6f5d6;
+       font-size:25px;
+       font-family: 'ZCOOL XiaoWei', serif;
+       line-height:50px;
+       position:absolute;
+       top:75%;left:27%;
+}
+.photoOne{
+         height:50%;
+         width:50%;
+         background-image:url(wave.gif);background-size:100%;background-repeat:no-repeat;
+         position:absolute;cursor: url(cursor.cur), auto;
+         top:30%;left:25%;
+}
+
+.badge{
+      height:200px;
+      width:200px;
+      background-image:url(badge.png);background-size:100%;background-repeat:no-repeat;
+      position:absolute;
+      top:40%;left:70%;
+      opacity:0.7;
+      animation:rotate 10s infinite;}
+}
+.arrow{
+       height:130px;
+       width:130px;
+       background-color:;
+       background-image:url(arrowdown.svg);background-size:100%;background-repeat:no-repeat;
+       position:absolute;
+       top:90%;left:47%;
+}
+.img{
+    border-radius:5px;
+    height:80px;
+    width:80px;
+}
+.light{color:#6fdc6f;}
+.small{font-size:20px;}
+#part-2 .small{font-size:25px;height:80px;display:inline-block;border-bottom:2px solid #194d33;}
+
+.card{
+     height:50%;
+     width:30%;
+     background-image:url(summerone.png);background-size:100%;background-repeat:no-repeat;
+     position:absolute;
+     top:50%;
+     left:3%;
+}
+.card-1 .card{left:35%;background-image:url(summerthree.png);}
+.card-2 .card{left:67%;background-image:url(summertwo.png);}
+.card-par{
+          color:#194d33;
+          font-size:30px;
+          position:absolute;
+          top:90%;left:0;
+}
+.card-1 .card-par{left:10%;top:110%;}
+.card-2 .card-par{left:5%;top:70%;}
+
+
+.slide-1{
+         height:400px;
+         width:300px;
+         background-image:url(icecream.png);background-repeat:no-repeat;background-size:100%;
+         background-size:100%;
+         position:absolute;
+         top:15%;left:10%;
+         z-index:2;
+}
+
+.footer-1{position:absolute;left:35%;top:20%;line-height:80px;}
+.footer-2{position:absolute;left:50%;top:20%;line-height:80px;}
+.footer-3{position:absolute;left:60%;top:45%;font-size:50px;font-family: 'ZCOOL XiaoWei', serif;color:#194d33;text-align:right;}
+.footer-1 a,.footer-2 a{font-size:20px;font-family: 'ZCOOL XiaoWei', serif;color:#194d33;text-decoration:none;}
+.frankLine{
+          height:1px;width:100%;
+          position:absolute;
+          top:60%;left:10%;
+}
+.frankLine a{
+             height:40px;width:300px;
+             text-align:center;
+             border-radius:40px;
+             color:#d6f5d6;
+             background-color:#194d33;
+             text-decoration:none;
+             font-weight:600;
+             font-size:17px;line-height:40px;
+             position:absolute;
+             top:27px;left:50%;
+}
+}
+</style>
+</head>
+<body>
+<div class="blocker">
+   <div class="textOne">触屏版开发中</div>
+</div>
+<div class="yes">
+<div id="header">
+   <div class="title"></div>
+   <div class="title-1"><div class="title"><a href="#header">简介</a></div></div>
+   <div class="title-2"><div class="title"><a href="#header">日程</a></div></div>
+   <div class="title-3"><div class="title"><a href="#header">贺卡</a></div></div>
+   <div class="info">球球之家小确幸</div>
+   <div class="info-1"><div class="info">2020.05.01</div></div>
+   <div class="info-2">第一季早夏节</div>
+   <div class="info-3"><div class="info-2">加迪夫，交易街，石头工坊65号</div></div>
+   <div class="photoOne"></div>
+   <div class="badge"></div>
+   <div class="textOne">今年我们要举办一只可爱的派对</div>
+   <div class="two" data-aos="fade-in" data-aos-duration="1000"><div class="textOne">来庆祝夏天来临</div></div>
+   <div class="par" data-aos="fade-in" data-aos-duration="1000">五月终于要来了，最近的几场雨使植物以前所未有的势头正在生长。为了庆祝这个美好的季节，夏天，的来临，我们要在家里开一个大派对，快从网上下载贺卡一起庆祝！</div>
+   <a href="#part-3"><div class="button" data-aos="fade-in" data-aos-duration="1000">获取贺卡</div></a>
+   <a href="#part-2"><div class="arrow" data-aos="fade-in" data-aos-duration="1000"></div></a>
+</div>
+
+<div id="part-2">
+    <div class="two"><div class="par">今年我们要举办一只可爱的派对今年我们要举办一只可爱的派对今年我们要举办一只可爱的派对</div></div>
+    <div class="photoTwo"></div>
+</div>
+<div id="part-3">
+      <div class="textOne" data-aos="fade-in" data-aos-duration="1000">给你准备的纪念贺卡<br><span class="small">点击下载</span></div>
+      <a href="summerone.png" download><div class="card" data-aos="fade-in" data-aos-duration="2000"><div class="card-par">(01)</div></div></a>
+      <a href="summertwo.png" download><div class="card-1" data-aos="fade-in" data-aos-duration="2000"><div class="card"><div class="card-par">(02)</div></div></div></a>
+      <a href="summerthree.png" download><div class="card-2" data-aos="fade-in" data-aos-duration="2000"><div class="card"><div class="card-par">(03)</div></div></div></a>
+</div>
+<div id="part-4"></div>
+<div id="part-5">
+     <div class="slide-1"></div>
+     <div class="footer-1" data-aos="fade-in" data-aos-duration="2000"><span class="love"><a href="">我们的家</a></span><br><a href="#part-2">幸福相册</a><br>
+                           <a href="#part-3">时光宝盒</a><br><a href="#part-4">线下礼物</a>
+     </div>
+     <div class="footer-2" data-aos="fade-in" data-aos-duration="2000"><span class="love"><a href="study.html">学习记录</a></span><br><a href="study.html#part-2">数学上</a><br>
+                           <a href="study.html#part-3">化学</a><br><a href="study.html#part-3">物理</a>
+     </div>
+     <a href="#header"><div class="footer-3" data-aos="fade-in" data-aos-duration="2000">球球之家.</div></a>
+     <div class="frankLine" data-aos="fade-in" data-aos-duration="2000"><a href="mailto:wenjie68@163.com">Email: wenjie68@163.com</a></div>
+</div>
+</div>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
