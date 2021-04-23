@@ -1,0 +1,282 @@
+﻿<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>球球之家</title>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap&subset=chinese-simplified" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(function(){
+  $(".yes a[href^='#']").click(function(e){
+     e.preventDefault();
+     var hash = this.hash;
+     $('html,body').animate({
+        scrollTop: ($(hash).offset().top)
+     }, 2000,);
+  });
+});
+</script>
+<style>
+
+@keyframes fade{
+           0%{opacity:1;}
+           50%{opacity:0.5;}
+           100%{opacity:1;}
+}
+
+a:hover{animation:fade 1s ease;}
+
+#head{
+     height:70%;
+     width:100%;
+     background-color:#ff9933;
+     position:absolute;
+     top:0;
+     left:0;
+}
+#foot{
+       height:600px;
+       width:110%;
+       background-color:#ffd480;
+       position:absolute;
+       top:1030%;left:0;
+}
+.title {
+        height:180px;
+        width:130px;
+        background-image:url(badge.png);
+        background-size:100%;
+        background-repeat:no-repeat;
+        position:fixed;
+        top:4%;left:7%;
+        z-index:5;
+}
+.back a{
+        color:#000;
+        font-weight:600;
+        transform:rotate(90deg);
+        position:fixed;
+        top:70%;left:90%;
+        display:inline-block;
+        z-index:2;
+}
+.tube{
+        position:absolute;
+        top:18%;left:25%;
+}
+.textOne{
+        width:50%;
+        font-size:77px;
+        font-family: 'ZCOOL XiaoWei', serif;
+       
+}.textOne a{color:#000;text-decoration:none;}
+
+.textTwo{
+        width:50%;
+        font-size:50px;
+        font-family: 'ZCOOL XiaoWei', serif;
+        margin-top:50px;
+}
+.small{
+        width:80%;
+        font-family: 'ZCOOL XiaoWei', serif;
+        font-size:25px;
+        font-weight:600;
+        line-height:35px;
+        margin-top:50px;
+}
+.small-p{
+        width:80%;
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size:20px;
+        line-height:35px;
+        margin-top:50px;
+}
+
+.small-trans{
+        width:80%;
+        font-size:20px;
+        opacity:0.8;font-weight:700;
+        margin-top:50px;
+}
+
+img{
+    height:400px;
+    width:70%;
+    border-radius:10px;
+    margin-top:50px;
+}
+
+.slide-1{
+         height:400px;
+         width:300px;
+         background-image:url(berm.jpg);
+         background-size:cover;
+         background-repeat:no-repeat;
+         position:absolute;
+         top:10%;left:10%;
+         animation:slideA 10s infinite;
+         z-index:2;
+}
+.slide-2{
+         height:400px;
+         width:300px;
+         background-image:url(beer.jpg);
+         background-size:cover;
+         position:absolute;
+         top:10%;left:10%;
+         animation:slideB 10s infinite;z-index:2;
+}
+.slide-3{
+         height:400px;
+         width:300px;
+         background-image:url(sbank.jpg);
+         background-size:cover;
+         position:absolute;
+         top:10%;left:10%;
+         animation:slideC 10s infinite;z-index:2;
+}
+@keyframes slideA{
+0%{opacity:0;}
+28%{opacity:0;}
+33.3%{opacity:1;}
+61%{opacity:1;}
+66.6%{opacity:0;}
+100%{opacity:0;}
+
+}
+@keyframes slideB{
+0%{opacity:0;}
+33.3%{opacity:0;}
+61%{opacity:0;}
+66.6%{opacity:1;}
+95%{opacity:1;}
+100%{opacity:0;}
+}
+@keyframes slideC{
+0%{opacity:0;}
+5%{opacity:1;}
+28%{opacity:1;}
+33.3%{opacity:0;}
+66.6%{opacity:0;}
+100%{opacity:0;}
+}
+.footer-1{position:absolute;left:35%;top:15%;line-height:80px;}
+.footer-2{position:absolute;left:50%;top:15%;line-height:80px;}
+.footer-3{position:absolute;left:60%;top:40%;font-size:50px;font-family: 'ZCOOL XiaoWei', serif;color:#000;text-align:right;}
+.footer-1 a,.footer-2 a{font-size:20px;font-family: 'ZCOOL XiaoWei', serif;color:black;text-decoration:none;}
+.frankLine{
+          background-color:#000;
+          height:1px;width:100%;
+          position:absolute;
+          top:85%;left:0;
+}
+.frankLine a{
+             height:40px;width:300px;
+             text-align:center;
+             border-radius:40px;
+             color:#ffd480;
+             background-color:#000;
+             text-decoration:none;
+             font-size:17px;line-height:40px;
+             position:absolute;
+             top:18px;left:50%;
+}
+.done{color:#000;}
+
+@media only screen and (max-width:680px){
+#head{background-color:#ffd480;}
+
+}
+</style>
+</head>
+<body>
+<a href="index.html"><div class="title"></div></a>
+<div class="back"><a href="post.html">全部博客</a></div>
+
+<div id="head">
+  <div class="tube">
+     <div class="small-trans">2021.04.22</div>
+     <div class="textOne">欢迎来到伯蒙德赛！</div>
+     <img src="berm.jpg">
+     <div class="small">最近球球们搬到了伯蒙德赛说（实话都是被<a href="">2019最宜居地点</a>评选忽悠来的）。这里在1800s是一个温泉胜地，废弃后与南部其他地方一样
+                      随时间破败。70年代左右一位设计师看上了附近废弃的厂房改造成别具工业风的高级住宅后吸引来
+                      第一批中产阶级业主。因为其经济的房价，越来越多年轻人将这里作为探索伦敦的
+                      落脚点。
+     </div>
+     <div class="textTwo">有哪些好玩的</div>
+     <div class="small-p"><b>Borough market</b> - 精品农副市场，可以买到一些少见的食材例如章鱼。</div>
+     <img src="bomarket.jpg">
+     <div class="small-p"><b>Beer mile</b> - 喜欢艺术啤酒的了解一下</div>
+     <img src="beer.jpg">
+     <div class="small-p"><b>South bank</b> - 河岸的步行街，景致不错，可以看到不少景点。往西逛可以进城，往东走一点就是The Shad步行街。</div>
+     <img src="sbank.jpg">
+     <div class="small-p"><b>The Shard</b> - 碎片大楼，顶层是香格里拉酒店，有中餐馆。</div>
+     <img src="shard.jpg">
+  
+     <div class="textTwo">我们的经验</div>
+     <div class="small-p">
+        在伯蒙德赛居住的这半年<b>整体体验还是不错的</b>。向东部和伦敦城一样让我们看到了一种不一样的生活，有点<b>土土的黑黑的</b>，但有<b>各种玻璃擦的亮亮的小店
+        小吃店和酒吧</b>分布点缀在其中的主路或后街上等着你去发现。如果有机会可以<b>订老厂房改的民宿体验下工业风</b>，这边生活成本低，治安相对于同样价格的
+        位置好，每天步行进城锻炼身体还可以一探究竟<b>真正的南区生活是怎样的</b>（路上会经过南华克腹地，但不用担心，只要是白天就很安全）。
+     </div>
+     <img src="safeberm.jpg">
+     <div class="textTwo">治安</div>
+     <div class="small-p">
+        许多朋友们最关注的就是治安问题了，虽然与肯辛顿相比落后的远了些，但比东区平静许多
+                              就我们住的这几个月还是<b>没什么问题的</b>。但<b>只限于</b>伯蒙德赛呦，南区其他地方还是晚上不要去的~
+                              一些上班族喜欢周末穿成南区人的样子(bermondsey street style) 来伯蒙德赛体验"帮派"生活，他们并不危险。但要是看到成群结队的黑人
+                              那就是真正的帮派了，附近也有白人小混混不过一般都不找事。
+        
+     </div>
+     <img src="hyberm.jpg">
+     <div class="textTwo">卫生</div>
+     <div class="small-p">
+        伯蒙德赛的整体卫生条件<b>一般</b>。桥洞底下有许多鸽子寄居，平时路面清扫次数少，由于曾经是工业区空气质量较差。但各家各户都把自己擦的窗明几净，
+        各种<b>小酒馆和小吃店</b>也相当精致，可以说是<b>各扫门前雪</b>。订民宿的话建议选<b>新建的大楼</b>。
+        
+     </div>
+
+    <a href=""><img src="londonstation.jpg"></a>
+     <div class="textTwo">交通</div>
+          <div class="small-p">
+               <b>伦敦桥站</b> - 地铁 Jubilee和Northen 线<br>
+                        公交 47 343 381 N199 N381<br>
+                        火车    Southern, Thameslink, Southeastern<br>
+               <b>伯蒙德赛站</b> - 地铁 Jubilee 线<br>
+                        公交 47 108 188 381 c10 N199 N381<br>
+               <b>Druid street</b> - 42 78 188<br>
+               <b>Bermondsey street</b> - c10<br>
+          </div>
+     
+       <div class="small-trans">Upnext...</div>
+       <div class="textOne"><a href="">如何做小贝</a></div>  
+       <div class="small-trans">2021.04.22</div>
+      
+   </div>
+</div>
+
+     
+
+ <div id="foot">
+     <div class="slide-1"></div>
+     <div class="slide-2"></div>
+     <div class="slide-3"></div>
+     <div class="footer-1"><span class="love"><a href="Woman's Day.html">我们的家</a></span><br><a href="Woman's Day.html#part-2">幸福相册</a><br>
+                           <a href="Woman's Day.html#part-3">时光宝盒</a><br><a href="Woman's Day.html#part-6">线下礼物</a>
+     </div>
+     <div class="footer-2"><span class="love"><a href="study.html">学习记录</a></span><br><a href="#part-2">数学上</a><br>
+                           <a href="#part-3">化学</a><br><a href="#part-4">物理</a>
+     </div>
+     <a href="Woman's Day.html"><div class="footer-3">球球之家.</div></a>
+     <div class="frankLine"><a href="mailto:wenjie68@163.com">Email: wenjie68@163.com</a></div>
+ </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
